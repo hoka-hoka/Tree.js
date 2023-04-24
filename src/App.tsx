@@ -1,15 +1,8 @@
-import { useEffect, useState } from 'react';
 import './App.css';
-import * as Three from 'three';
+import { Cube2D } from './components/Cubes/Cube2D';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    const scene = new Three.Scene();
-  });
-
-  return <></>;
+  return <Cube2D></Cube2D>;
 }
 
 export default App;
