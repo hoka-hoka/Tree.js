@@ -1,8 +1,8 @@
 import './App.css';
-import { Cube2D } from './components/Cubes/Cube2D';
+import { Adaptive } from './components/Adaptive/Adaptive';
 
 function App() {
-  return <Cube2D></Cube2D>;
+  return <Adaptive></Adaptive>;
 }
 
 export default App;
