@@ -1,8 +1,8 @@
 import './App.css';
-import { Adaptive } from './components/Adaptive/Adaptive';
+import { Sphere } from './components/Geometries/Sphere';
 
 function App() {
-  return <Adaptive></Adaptive>;
+  return <Sphere></Sphere>;
 }
 
 export default App;
